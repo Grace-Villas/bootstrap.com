@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="assets/coffee-cup.png" type="image/x-icon">
+    <title>Café Creme</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+        <div
+            class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+            <i class="bi bi-phone d-flex align-items-center"><span>(+58) 414-658-1193</span></i>
+            <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Lunes a Domingo: 08:00 AM - 06:00
+                    PM</span></i>
+        </div>
+    </section>
+
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <div class="logo me-auto">
+                <h1><a href="index.html">Café Creme</a></h1>
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+                    <li><a class="nav-link scrollto" href="#menu">Menú</a></li>
+                    <li><a class="nav-link scrollto" href="#chefs">Baristas</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Galería</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contactos</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- navegacion -->
+
+            <a href="#book-a-table" class="book-a-table-btn scrollto">Reservar Mesa</a>
+        </div>
+    </header>
+
+
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown"><span>Café Creme</span> Cafetería</h2>
+                                <p class="animate__animated animate__fadeInUp">"Frente a una taza con café se piensa,
+                                    pero también se
+                                    discute, se recuerda o se argumenta. Frente a la taza con café se columbra,
+                                    se reflexiona, se sueña, se imagina, se escribe, se conversa, se enamora,
+                                    se seduce, se rompe, se reconcilia, se halaga, se sugiere, se invita…
+                                    Y el café, el misterioso café escucha, profetiza, atestigua, aconseja, da fe,
+                                    observa, asiente, se ruboriza…" -Gustavo Máynez Tenorio</p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Menú</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Mesa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown">Expertos en crear momentos felices.
+                                </h2>
+                                <p class="animate__animated animate__fadeInUp">"El buen café endulzado, delicioso es más
+                                    que mil besos, dulce sabe cual vino moscatel, café, sí, ¡es café lo que quiero! Y
+                                    quien deseare darme a saborear una exquisita bebida, venga a ofrecerme una taza de
+                                    café." -Johann Sebastian Bach</p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Menú</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Mesa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <h2 class="animate__animated animate__fadeInDown">Tu día comienza aquí</h2>
+                                <p class="animate__animated animate__fadeInUp">"Sin mi café de la mañana, soy sólo como
+                                    una pieza dorada y seca de carnero." -Johann Sebastian Bach</p>
+                                <div>
+                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Ver
+                                        Menú</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Reservar Mesa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+                </a>
+
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <main id="main"></main>
+
+    <!-- ======= Nosotros ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-lg-5 align-items-stretch video-box"
+                    style='background-image: url("assets/img/about.jpg");'>
+                    <a href="https://www.youtube.com/watch?v=t8k71QcArnk" class="venobox play-btn mb-4"
+                        data-vbtype="video" data-autoplay="true"></a>
+                </div>
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                    <div class="content">
+                        <h3>¡Hola! te invitamos a conocer nuestra Historia.<strong>Con una buena taza de café </strong>
+                        </h3>
+                        <p>
+                            Café Creme nace hace 46 años, gracias a Alejandro Molina quien tenía el sueño de crear un
+                            espacio donde
+                            diferentes grupos de personas pudiesen compartir un café.
+                        </p>
+                        <p class="fst-italic">
+                            De esta manera, nuestra cafetería fue creciendo progresivamente y hasta convertirse en lo
+                            que hoy es, compartiendo el mejor café, e impulsando estos principios:
+                        </p>
+                        <ul>
+                            <li><i class="bx bx-check-double"></i>Las relaciones familiares y de amistad, son
+                                impresindibles en el ser humano al igual que el café.</li>
+                            <li><i class="bx bx-check-double"></i>Debemos manifestar nuestra esencia, como el café su
+                                aroma.</li>
+                            <li><i class="bx bx-check-double"></i> El amor debe ser como el café. A veces fuerte, otras
+                                dulces, a veces solo, otras acompañado, pero nunca frío.</li>
+                        </ul>
+                        <p>
+                            Bajo estos pilares, se ha construido con mucho amor para el mundo Café Creme, ofreciendo
+                            siempre el mejor servicio, inspirando grandes ideas, motivando e impulsando emociones
+                            fuertes y vibrantes como una buena taza de café.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin nosotros -->
+
+    <!-- ======= Menú ======= -->
+    <section id="menu" class="menu">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Consulta Nuestro Delicioso <span>Menú</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="menu-flters">
+                        <li data-filter="*" class="filter-active">Todo</li>
+                        <li data-filter=".filter-starters">Café</li>
+                        <li data-filter=".filter-salads">Tés</li>
+                        <li data-filter=".filter-specialty">Pasteles</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row menu-container">
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Expresso</a><span>$3.50</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Café Kona.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Ponquesito de Chocolate</a><span>$4.95</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Masa de chocolate, Relleno de almendras, Glaseado de mantequilla.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Cappuccino</a><span>$4.50</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Café Blue Mountain, Leche, Cacao, Canela.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Té Negro Vahdam</a><span>$2.40</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Té Negro, Canela, Cardamomo, Clavo, Pimienta Negra.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Pástel Red Velvet</a><span>$11.24</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Pastel de Chocolate color rojo, Glaseado de Roux, Frutos rojos.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-starters">
+                    <div class="menu-content">
+                        <a href="#">Moca</a><span>$4.95</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Café Konna, Leche, Cacao, Sirope de Chocolate.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Té Verde Hornimans</a><span>$2</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Té verde, esencia de flores de jasmín.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <div class="menu-content">
+                        <a href="#">Té Pu-erh </a><span>$2.50</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Té de frutos de Camelia.
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-specialty">
+                    <div class="menu-content">
+                        <a href="#">Pie de Limón</a><span>$10</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        Masa de ojaldre, crema de limón, Merengue.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin Menú -->
+
+
+    <!-- ======= Inicio Reservación ======= -->
+    <section id="book-a-table" class="book-a-table">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Reserva una <span> Mesa</span></h2>
+                <p>Llena los campos del formulario para hacer tu reservación, si la misma no es pagada en un lapso de
+                    12hrs, será cancelada.</p>
+            </div>
+
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+                            data-rule="minlen:4" data-msg="Porfavor ingrese más de 4 caracteres.">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Correo"
+                            data-rule="email" data-msg="Por favor, ingrese un correo válido">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Número"
+                            data-rule="minlen:4" data-msg="Por favor ingrese un número válido">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" name="date" class="form-control" id="date" placeholder="Fecha"
+                            data-rule="minlen:4" data-msg="Por favor ingrese más de 4 caracteres">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="time" id="time" placeholder="Tiempo de Reserva"
+                            data-rule="minlen:4" data-msg="Por favor ingrese más de 4 caracteres">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="number" class="form-control" name="people" id="people" placeholder="# de personas"
+                            data-rule="minlen:1" data-msg="Porfavor ingrese más de una persona.">
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Su solicitud de reserva fue enviada. Le devolveremos la llamada o le
+                        enviaremos un correo electrónico a
+                        confirma tu reserva. ¡Gracias!</div>
+                </div>
+                <div class="text-center"><button type="submit">Reservar</button></div>
+            </form>
+
+        </div>
+    </section><!-- Fin Resevación-->
+
+    <!-- ======= Galería======= -->
+    <section id="gallery" class="gallery">
+        <div class="container-fluid">
+
+            <div class="section-title">
+                <h2>Algunas Fotos de <span>Nuestra Cafetería</span></h2>
+                <p>Te presentamos una serie de imagenes de nuestras instalaciones y trabajo para que puedas conocernos
+                    un poco más.</p>
+            </div>
+
+            <div class="row g-0">
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                            <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin Galería -->
+
+    <!-- ======= Chefs ======= -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Nuestros Baristas <span>Profesionales</span></h2>
+                <p>Este es él equipo detrás de cada buen recuerdo que ha formado nuestro café, quienes te ayudan a
+                    comenzar el día.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Heather Miller</h4>
+                            <span>Barista/span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Eun-ji Lee</h4>
+                            <span>Mesera</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Johari Brown</h4>
+                            <span>Cocinera</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- Fin chefs-->
+
+    <!-- ======= Testimonios ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container position-relative">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <h3>Saul Goodman</h3>
+                            <h4>Ceo &amp; Fundador Lov's</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Siempre antes de ir a trabajar paso por eta cafetería, no hay un día que pueda comenzar
+                                bien sin mi café en la mañana, este lugar ha representado para mí más de lo que pueden
+                                imaginar.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                            <h3>Sara Wilsson</h3>
+                            <h4>Diseñadora Gráfica</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                En este lugar es donde puedo expresar mejor mis ideas e inspirarme con el delicioso
+                                aroma del café y todo lo que ofrecen. Siempre que tengo un bloqueo creativo, vengo aquí
+                                a despejar mis ideas y crear arte.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                            <h3>Jena Karlis</h3>
+                            <h4>Administradora</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                En los días duros de la oficina, siempre vengo a este café a levantar mis ánimos y
+                                compartir de esa alegría con mis amigas al llevarles de la deliciosa variedad de bebidas
+                                de postres que hay aquí.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <h3>Matt Brandon</h3>
+                            <h4>Freelancer</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Café Creme es el mejor lugar para trabajar como Frelancer, aquí puedes concentrarte y
+                                estar cómodo, dispones de lo necesario, conexión a wifi, un espacio para tí y Café, ¿Qué
+                                mas podría pedir en un solo lugar?
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                            <h3>John Larson</h3>
+                            <h4>Contratista</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Si necesito reunirme con un cliente o proveedor solo puedo pensar en Café Creme, aquí te
+                                sientes en familia por su excelente servicio al cliente y su delicioso menú, cuando hago
+                                una reunión aquí se cierra un trato exitoso, es mi lugar de suerte.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- Final Testimonios-->
+
+    <!-- ======= Contactos ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2><span>¿Que esperas?</span> ¡Contactanos!</h2>
+                <p>Acá te dejamos toda la información necesaria para contactarnos, te estamos esperando, ven a disfrutar
+                    de un maravilloso café.</p>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15683.687215666583!2d-71.6173029!3d10.6631776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x889af8d5a20fbc4e!2sLa%20Culpa%20es%20del%20Cafe!5e0!3m2!1ses-419!2sve!4v1648757890489!5m2!1ses-419!2sve"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="container mt-5">
+
+            <div class="info-wrap">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 info">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Ubicación:</h4>
+                        <p>Maracibo<br>Zulia, Calle 80</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-clock"></i>
+                        <h4>Horario:</h4>
+                        <p>Lunes-Domingo:<br>08:00 AM - 06:00 PM</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Correo:</h4>
+                        <p>infocafecreme@gmail.com<br>cafecremme@gmail.com</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+                        <i class="bi bi-phone"></i>
+                        <h4>Telefonos:</h4>
+                        <p>(+58) 414-658-1193<br>(+58) 424-632-6259</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Correo" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+
+        </div>
+    </section><!-- Final contatos -->
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Café Creme</h3>
+            <p>Política de tratamiento de datos personales - Aviso de privacidad</p>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Elizabeth Villasmil</span></strong>. Todos los derechos reservados.
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                Diseñado con <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
